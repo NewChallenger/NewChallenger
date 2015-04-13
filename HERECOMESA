@@ -1,0 +1,13 @@
+#!/bin/bash
+# stolen from internet but no a grade so iz ok right?
+while [ 1 ];
+do
+    count=`curl -s "github.com/NewChallenger/NewChallenger | grep -c "Basketball"`
+
+    if [ "$count" != "0" ]
+    then
+       Start "https://www.youtube.com/watch?v=TTdm5GtAW0o"
+       exit 0   
+    fi
+    sleep 600   
+done
