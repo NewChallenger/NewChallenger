@@ -6,7 +6,7 @@ do
 
     if [ "$count" != "0" ]
     then
-       Start "https://www.youtube.com/watch?v=TTdm5GtAW0o"
+       Start https://www.youtube.com/watch?v=TTdm5GtAW0o
        exit 0   
     fi
     sleep 600   
