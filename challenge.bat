@@ -1,7 +1,5 @@
 #!/bin/bash
 
-while [ 1 ];
-do
 cmd='no'
 while (test "$cmd" != "yes")     
 do
@@ -28,7 +26,4 @@ echo theygone! (if somebody logs out)
 fi
 
 clear
-done
-
-
 done

@@ -1,7 +1,5 @@
 #!/bin/bash
 
-while [ 1 ];
-do
 cmd='no'
 while (test "$cmd" != "yes")     
 do
@@ -24,11 +22,8 @@ echo ./Challenge
 
 
 if (test $WhosOn2 -lt $WhosOn1) then
-echo theygone! (if somebody logs out)
+#echo theygone! (if somebody logs out)
 fi
 
 clear
-done
-
-
 done
