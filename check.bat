@@ -16,7 +16,7 @@ WhosOn2=`who | cut -d " " -f1 | wc -w`
 if (test $WhosOn2 -gt $WhosOn1) then
 
 
-echo ./Challenge
+./Challenge
 
 
 
