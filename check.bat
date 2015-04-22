@@ -24,7 +24,7 @@ echo ./Challenge
 
 
 if (test $WhosOn2 -lt $WhosOn1) then
-echo theygone! (if somebody logs out)
+echo theygone! 
 fi
 
 clear
