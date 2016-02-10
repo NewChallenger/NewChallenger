@@ -11,7 +11,7 @@ WhosOn1=`who | cut -d " " -f1 | wc -w`
 
 WhosOn2=`who | cut -d " " -f1 | wc -w`
 
-if (test $WhosOn2 -gt $WhosOn1) then
+
 
 
 echo ./Challenge
@@ -22,7 +22,7 @@ echo ./Challenge
 
 
 if (test $WhosOn2 -lt $WhosOn1) then
-echo theygone! (if somebody logs out)
+echo theygone! 
 fi
 
 clear
